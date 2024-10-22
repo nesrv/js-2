@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 40px;
+    background: #c34747;
+}
+
+.popup {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(125, 125, 125, 0.6);
+    align-items: center;
+    justify-content: center;
+}
+
+.popup-header {
+    width: 400px;
+    height: 200px;
+    background-color: #c34747;
+    color: white;
+    font-size: 2em;
+}
